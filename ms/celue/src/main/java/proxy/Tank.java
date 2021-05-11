@@ -10,6 +10,7 @@ public class Tank implements Movable {
         System.out.println("tank moving......");
         try {
             Thread.sleep(1000);
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
